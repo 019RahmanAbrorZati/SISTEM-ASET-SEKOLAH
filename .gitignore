@@ -1,0 +1,18 @@
+# Logo asli sekolah (tidak dipakai lagi di kode, jangan ikut diunggah)
+assets/img/logo-sekolah.*
+
+# Foto aset asli sekolah
+assets/img/barang/*
+!assets/img/barang/.gitkeep
+
+# Hasil export / cadangan database
+*.sql
+!database/schema.sql
+!database/alter_tambahan.sql
+backup*/
+beckup*/
+
+# Berkas sistem
+Thumbs.db
+desktop.ini
+.DS_Store
